@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7F0820F01C6328FC0041370A /* SearchTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F0820F01C6328FC0041370A /* SearchTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F0820F41C6328FD0041370A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7F0820F61C6328FD0041370A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7F0820F71C6328FD0041370A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,7 +50,7 @@
 		7F0820F11C6328FC0041370A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7F0820F01C6328FC0041370A /* SearchTextView.app */,
+				7F0820F01C6328FC0041370A /* SearchTextField.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7F0820EF1C6328FC0041370A /* SearchTextView */ = {
+		7F0820EF1C6328FC0041370A /* SearchTextField */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7F0821071C6328FD0041370A /* Build configuration list for PBXNativeTarget "SearchTextView" */;
+			buildConfigurationList = 7F0821071C6328FD0041370A /* Build configuration list for PBXNativeTarget "SearchTextField" */;
 			buildPhases = (
 				7F0820EC1C6328FC0041370A /* Sources */,
 				7F0820ED1C6328FC0041370A /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = SearchTextView;
+			name = SearchTextField;
 			productName = SearchTextView;
-			productReference = 7F0820F01C6328FC0041370A /* SearchTextView.app */;
+			productReference = 7F0820F01C6328FC0041370A /* SearchTextField.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -113,7 +113,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7F0820EB1C6328FC0041370A /* Build configuration list for PBXProject "SearchTextView" */;
+			buildConfigurationList = 7F0820EB1C6328FC0041370A /* Build configuration list for PBXProject "SearchTextField" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -126,7 +126,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7F0820EF1C6328FC0041370A /* SearchTextView */,
+				7F0820EF1C6328FC0041370A /* SearchTextField */,
 			);
 		};
 /* End PBXProject section */
@@ -266,7 +266,7 @@
 				INFOPLIST_FILE = SearchTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haripalwagh.SearchTextView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchTextField;
 			};
 			name = Debug;
 		};
@@ -277,14 +277,14 @@
 				INFOPLIST_FILE = SearchTextView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.haripalwagh.SearchTextView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = SearchTextField;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7F0820EB1C6328FC0041370A /* Build configuration list for PBXProject "SearchTextView" */ = {
+		7F0820EB1C6328FC0041370A /* Build configuration list for PBXProject "SearchTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F0821051C6328FD0041370A /* Debug */,
@@ -293,13 +293,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7F0821071C6328FD0041370A /* Build configuration list for PBXNativeTarget "SearchTextView" */ = {
+		7F0821071C6328FD0041370A /* Build configuration list for PBXNativeTarget "SearchTextField" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7F0821081C6328FD0041370A /* Debug */,
 				7F0821091C6328FD0041370A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
